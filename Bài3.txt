@@ -1,0 +1,36 @@
+1. 
+| Stakeholder        | Vai trò                                                                    | Nguồn yêu cầu                              |                                                                                                                                                                           
+|--------------------|----------------------------------------------------------------------------|--------------------------------------------|
+| Học viên           | Người dùng đăng ký tài khoản, tìm kiếm, mua và học các khóa học trực tuyến | Trải nghiệm học tập, nhu cầu sử dụng       |
+|--------------------|----------------------------------------------------------------------------|--------------------------------------------|                                                                                                                                                                                                                                                                                                                                                                                                        
+| Giảng viên         | Người tạo, quản lý, và giảng dạy các khóa học                              | Cần công cụ đăng khóa học, quản lý nội dung| 
+|--------------------|----------------------------------------------------------------------------|--------------------------------------------|                                                                                                                                                                                                                                                                                                                                           
+| Quản trị viên      | Quản lý hệ thống, người dùng, khóa học, thanh toán, và bảo mật dữ liệu     | Đảm bảo vận hành hệ thống hiệu quả         |
+|--------------------|----------------------------------------------------------------------------|--------------------------------------------|                                                                                                                                                                                                                                                                                                                                                                                                        
+| Bộ phận kỹ thuật   | Duy trì, bảo trì và nâng cấp hệ thống                                      | Đảm bảo hiệu năng và bảo mật               | 
+|--------------------|----------------------------------------------------------------------------|--------------------------------------------|                                                                                                                                                                                                                                                                                                                                                                                                        
+| Hệ thống thanh toán| Xử lý giao dịch thanh toán khóa học                                        | Đảm bảo tính chính xác và an toàn giao dịch| 
+2. Yêu cầu chức năng
+| Mã | Mô tả yêu cầu chức năng                                                         |
+|----|---------------------------------------------------------------------------------|
+| FR1| Hệ thống cho phép người dùng đăng ký và đăng nhập bằng tài khoản cá nhân        |
+| FR2| Học viên có thể tìm kiếm khóa học theo tên, giảng viên, danh mục, hoặc mức giá  |
+| FR3| Học viên có thể mua khóa học và thanh toán trực tuyến qua cổng thanh toán       |
+| FR4| Học viên sau khi mua có thể truy cập nội dung khóa học                          |
+| FR5| Giảng viên có thể tạo và quản lý khóa học                                       |
+| FR6| Hệ thống cho phép theo dõi tiến độ học tập của học viên                         |
+| FR7| Quản trị viên có thể quản lý người dùng, khóa học, doanh thu, và xử lý khiếu nại|
+| FR8| Hệ thống gửi thông báo cho người dùng khi có cập nhật hoặc khóa học mới         |
+| FR9| Hệ thống ghi lại lịch sử giao dịch và học tập cho từng người dùng               |
+3. Yêu câù
+| Mã  | Mô tả yêu cầu phi chức năng                                                                       |
+|-----|---------------------------------------------------------------------------------------------------|
+| NFR1| Hiệu năng: Hệ thống phải đáp ứng tối thiểu 5000 người dùng đồng thời mà không giảm tốc độ         |
+| NFR2| Tính sẵn sàng: Thời gian uptime của hệ thống đạt hơn 99.5%                                        |
+| NFR3| Bảo mật: Dữ liệu người dùng và giao dịch phải được mã hóa                                         |
+| NFR4| Khả năng mở rộng: Có thể dễ dàng thêm máy chủ hoặc module mới khi lượng người dùng tăng           |
+| NFR5| Khả năng sử dụng: Giao diện thân thiện, hỗ trợ trên web và di động                                |
+| NFR6| Khả năng khôi phục: Hệ thống phải có cơ chế backup định kỳ và khôi phục trong vòng 2h khi có sự cố|
+| NFR7| Khả năng tương thích: Hoạt động trên các trình duyệt chính                                        |
+| NFR8| Bảo trì: Có khả năng cập nhật, sửa lỗi và mở rộng tính năng mà không gián đoạn dịch vụ            |
+           
