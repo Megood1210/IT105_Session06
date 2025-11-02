@@ -1,0 +1,4 @@
+1.
+ -Loại hệ thống thông tin phù hợp là kết hợp 3 tầng chính TPS + MIS + DSS
+2.
+ - Mô hình phát triển phần mềm thích hợp là Agile
